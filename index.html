@@ -8,37 +8,104 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+			<div id="wrapper">
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="https://twitter.com/rkishan516" class="icon brands fa-twitter"><span>Twitter</span></a>
+					</nav>
+					<div id="main">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Kishan Rathore</h1>
-						<p>Flutter Engineer &nbsp;&bull;&nbsp; Web Developer &nbsp;&bull;&nbsp; Sports Programmer</p>
-						<nav>
-							<ul>
-								<li><a href="http://twitter.com/rkishan516" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" ><span class="label"><img src="assets/css/images/rkishan516.jpg" alt="rkishan516"></span></span></a></li>
-								<li><a href="http://Github.com/rkishan516" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:rkishan516@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Kishan Rathore</h1>
+									<p>Android/Flutter Developer</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/rkishan516.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2><center>Projects</center></h2>
+								</header>
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<center><a href="https://github.com/rkishan516/Airify" class="image fit"><img src="images/pic.jpg" alt="">Airify</a></center>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<center><a href="https://github.com/rkishan516/flutterspace" class="image fit"><img src="images/pic.jpg" alt="">Flutter Space</a></center>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<center><a href="https://github.com/rkishan516/spacertranslator" class="image fit"><img src="images/pic.jpg" alt="">Spacer Translator</a></center>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<center><a href="https://github.com/rkishan516/NoteKeeper-Android" class="image fit"><img src="images/pic.jpg" alt="">NoteKeeper-Android</a></center>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<center><a href="https://github.com/rkishan516/Eats-Now" class="image fit"><img src="images/pic.jpg" alt="">Eats-Now</a></center>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<center><a href="https://github.com/rkishan516/Complete-Blog-PHP" class="image fit"><img src="images/pic.jpg" alt="">Complete-Blog-PHP</a></center>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<center><a href="https://github.com/rkishan516/GadgetReview" class="image fit"><img src="images/pic.jpg" alt="">GadgetReview</a></center>
+										</div>
+									</div>
+								</section>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Proudly. Designed by : Kishan Rathore</a>.</span>
-					</footer>
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Rkishan516.</li><li>Design: <a href="#">KISHAN RATHORE</a></li>
+						</ul>
+					</div>
 
 			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
