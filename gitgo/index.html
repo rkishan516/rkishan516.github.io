@@ -16,18 +16,36 @@
   <link rel="shortcut icon" type="image/png" href="favicon.png" />
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
-  <meta name="google-signin-client_id" content="817310799848-9f6au0pb39sv3fpoufcp1hrjq0troo30.apps.googleusercontent.com">
+  <meta name="google-signin-client_id"
+    content="817310799848-9f6au0pb39sv3fpoufcp1hrjq0troo30.apps.googleusercontent.com">
 
   <title>gitgo</title>
   <style>
-    body { margin: 0; padding: 0; }
-    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
   </style>
   <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
-  <div id='map'></div>
+  <script>
+    // mapboxgl.accessToken = 'pk.eyJ1IjoiZ2l0Z28iLCJhIjoiY2s4ZW1neTZ5MDQ1NjNmcXNsMXM4enl6diJ9.mVi7izfewCsj65iwxw1qLQ';
+    // var map = new mapboxgl.Map({
+    //   container: 'map', // container id
+    //   style: 'mapbox://styles/mapbox/streets-v11',
+    //   center: [19.076090, 72.877426], // starting position
+    //   zoom: 3 // starting zoom
+    // });
+  </script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
